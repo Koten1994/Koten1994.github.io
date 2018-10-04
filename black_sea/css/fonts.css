@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../fonts/RobotoSlab/RobotoSlab-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    font-weight: bold;
+    src: url("../fonts/RobotoSlab/RobotoSlab-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Railway/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: bold;
+    src: url("../fonts/Railway/Raleway-Bold.ttf") format("truetype");
+}
