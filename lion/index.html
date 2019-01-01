@@ -186,7 +186,7 @@
 						</div>
 					</div>
 					<div class="categories___item" data-animate = 'fadeInRight'>
-						<img src="img/feedback.png" alt="feedback" class="img-responsive">
+						<img src="img/_feedback.png" alt="feedback" class="img-responsive">
 						<div class="categories___item--inner">
 							<h4>Отзывы</h4>
 							<p>If you are about to get married then look no further, we are the house you've always dreamed of. If you are about to get married then look no further, we are the house.</p>
@@ -254,7 +254,19 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		// preloader
+		document.onload = preloader();
 
+		function preloader() {
+		preloader = document.querySelector('.preloader');
+		setTimeout(function(){
+			if(!preloader.classList.contains('preloader__done')) {
+			preloader.classList.add('preloader__done');
+			}
+		},1500);
+		};
+	</script>
 	<script src="js/scripts.min.js"></script>
 </body>
 </html>
