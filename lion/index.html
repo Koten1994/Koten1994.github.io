@@ -30,6 +30,7 @@
 	<div class="preloader">
 		<div class="circle"></div>
 	</div>
+
 	<header class="header__top">
 		<div class="container main__header">
 			<nav class="header__nav">
@@ -254,19 +255,6 @@
 			</div>
 		</div>
 	</footer>
-	<script>
-		// preloader
-		document.onload = preloader();
-
-		function preloader() {
-		preloader = document.querySelector('.preloader');
-		setTimeout(function(){
-			if(!preloader.classList.contains('preloader__done')) {
-			preloader.classList.add('preloader__done');
-			}
-		},1500);
-		};
-	</script>
 	<script src="js/scripts.min.js"></script>
 </body>
 </html>
